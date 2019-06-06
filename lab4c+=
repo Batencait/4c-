@@ -1,0 +1,14 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(LC_CTYPE, "RUS");
+	char f[20000];
+	cout << "Введите строку:" << endl;
+	cin>> f;
+	_strrev(f);
+	
+	cout << f << endl;
+		return 0;
+}
